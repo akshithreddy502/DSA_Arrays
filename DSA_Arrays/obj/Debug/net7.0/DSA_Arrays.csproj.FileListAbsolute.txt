@@ -1,0 +1,15 @@
+/Users/akshith/Projects/DSA_Arrays/DSA_Arrays/bin/Debug/net7.0/DSA_Arrays
+/Users/akshith/Projects/DSA_Arrays/DSA_Arrays/bin/Debug/net7.0/DSA_Arrays.deps.json
+/Users/akshith/Projects/DSA_Arrays/DSA_Arrays/bin/Debug/net7.0/DSA_Arrays.runtimeconfig.json
+/Users/akshith/Projects/DSA_Arrays/DSA_Arrays/bin/Debug/net7.0/DSA_Arrays.dll
+/Users/akshith/Projects/DSA_Arrays/DSA_Arrays/bin/Debug/net7.0/DSA_Arrays.pdb
+/Users/akshith/Projects/DSA_Arrays/DSA_Arrays/obj/Debug/net7.0/DSA_Arrays.csproj.AssemblyReference.cache
+/Users/akshith/Projects/DSA_Arrays/DSA_Arrays/obj/Debug/net7.0/DSA_Arrays.GeneratedMSBuildEditorConfig.editorconfig
+/Users/akshith/Projects/DSA_Arrays/DSA_Arrays/obj/Debug/net7.0/DSA_Arrays.AssemblyInfoInputs.cache
+/Users/akshith/Projects/DSA_Arrays/DSA_Arrays/obj/Debug/net7.0/DSA_Arrays.AssemblyInfo.cs
+/Users/akshith/Projects/DSA_Arrays/DSA_Arrays/obj/Debug/net7.0/DSA_Arrays.csproj.CoreCompileInputs.cache
+/Users/akshith/Projects/DSA_Arrays/DSA_Arrays/obj/Debug/net7.0/DSA_Arrays.dll
+/Users/akshith/Projects/DSA_Arrays/DSA_Arrays/obj/Debug/net7.0/refint/DSA_Arrays.dll
+/Users/akshith/Projects/DSA_Arrays/DSA_Arrays/obj/Debug/net7.0/DSA_Arrays.pdb
+/Users/akshith/Projects/DSA_Arrays/DSA_Arrays/obj/Debug/net7.0/DSA_Arrays.genruntimeconfig.cache
+/Users/akshith/Projects/DSA_Arrays/DSA_Arrays/obj/Debug/net7.0/ref/DSA_Arrays.dll
