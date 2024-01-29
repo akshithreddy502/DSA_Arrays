@@ -1,4 +1,242 @@
-﻿
+﻿//Deleting element in sorted array using binary search
+
+/*int i;
+int[] arr = { 10, 20, 30, 40, 50 };
+
+int n = arr.Length;
+int key = 30;
+
+Console.Write("Array before deletion:\n");
+for (i = 0; i < n; i++)
+    Console.Write(arr[i] + " ");
+
+// Function call
+n = deleteElement(arr, n, key);
+
+Console.Write("\n\nArray after deletion:\n");
+for (i = 0; i < n; i++)
+{
+    Console.Write(arr[i] + " ");
+}
+
+
+static int deleteElement(int[] arr, int n, int key)
+{
+    int low = 0;
+    int high = n - 1;
+    int eleIndex = findElementIndex(arr, n, key, low, high);
+    for (int i = eleIndex; i < n - 1; i++)
+    {
+        arr[i] = arr[i + 1];
+    }
+    return n - 1;
+}
+
+static int findElementIndex(int[] arr, int n, int key, int low, int high)
+{
+    int mid = low + high / 2;
+    if (arr[mid] == key)
+    {
+        return mid;
+    }
+    else if (arr[mid] < key)
+    {
+        low = mid + 1;
+        return findElementIndex(arr, n, key, low, high);
+    }
+    else
+    {
+        high = mid - 1;
+        return findElementIndex(arr, n, key, low, high);
+    }
+    return -1;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+//Deleting element using linear search
+
+/*int i;
+int[] arr = { 10, 50, 30, 40, 20 };
+
+int n = arr.Length;
+int key = 30;
+
+Console.Write("Array before deletion ");
+for (i = 0; i < n; i++)
+    Console.Write(arr[i] + " ");
+Console.WriteLine();
+
+// Function call
+n = deleteElement(arr, n, key);
+
+Console.Write("Array after deletion ");
+for (i = 0; i < n; i++)
+    Console.Write(arr[i] + " ");
+
+static int deleteElement(int[] arr, int n, int key)
+{
+    int eleIndex = findElementIndex(arr,n,key);
+    for(int i= eleIndex; i < n-1; i++)
+    {
+        arr[i] = arr[i + 1];
+    }
+    return n - 1;
+}
+
+static int findElementIndex(int[] arr, int n, int key)
+{
+    for(int i=0; i<n; i++)
+    {
+        if (arr[i] == key)
+        {
+            return i;
+        }
+    }
+    return -1;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+// searching element using binary search in sorted array
+
+/*int[] arr = new int[] { 5, 6, 7, 8, 9, 10 };
+int n, key;
+n = arr.Length;
+key = 10;
+int low = 0;
+int high = n - 1;
+int returnedIndex = BinarySearch(arr, key, low, high);
+if (returnedIndex == -1)
+{
+    Console.WriteLine("Element not found");
+}
+else
+{
+    Console.WriteLine("Element  found");
+}
+
+static int BinarySearch(int[] arr, int key, int low, int high)
+{
+    while(low <= high)
+    {
+        int mid = (low + high) / 2;
+        if (arr[mid] == key)
+        {
+            return mid;
+        }
+        else if (arr[mid] < key)
+        {
+             low = mid + 1;
+           return BinarySearch(arr, key, low, high);
+        }
+        else
+        {
+            high = mid - 1;
+           return BinarySearch(arr, key, low, high);
+        }
+    }
+    return -1;
+}
+
+
+
+
+*/
+//Searching element using Linear search in an unsorted array
+/* int[] arr = { 12, 34, 10, 6, 40 };
+int n = arr.Length;
+int key = 40;
+int a= searchElement(arr, n, key);
+if (a == -1)
+{
+    Console.WriteLine("Element not found");
+}
+else
+{
+    Console.WriteLine("Element  found");
+}
+static int searchElement(int[] arr, int n,int key)
+{
+    for(int i = 0; i < n ; i++)
+    {
+        if (arr[i] == key)
+        {
+            return i;
+        } 
+        
+    }
+    return -1;
+}
+*/
+
+
+
+
+
+//Inserting element at the position
+/*int[] arr = new int[20];
+arr[0] = 12;
+arr[1] = 16;
+arr[2] = 20;
+arr[3] = 40;
+arr[4] = 50;
+arr[5] = 70;
+int n = 6;
+for (int i = 0; i < n; i++)
+{
+    Console.Write(arr[i] + " ");
+}
+Console.WriteLine();
+int pos = 3;
+int key = 30;
+
+
+n = insertElementPos(arr, key, n, pos);
+
+for (int i = 0; i < n; i++)
+{
+    Console.Write(arr[i] + " ");
+}
+Console.WriteLine();
+static int insertElementPos(int[] arr, int key, int n, int pos)
+{
+    if (n > arr.Length)
+        return n;
+
+    for (int i = n - 1; i >= pos; i--)
+    {
+        arr[i + 1] = arr[i];
+    }
+    arr[pos] = key;
+    return n + 1;
+}
+*/
+
+
+
+
+
+
+/*
+ * Inserting element at the end 
+ * 
 int[] arr = new int[20];
 arr[0] = 12;
 arr[1] = 16;
@@ -24,10 +262,13 @@ for (int i = 0; i < n; i++)
 Console.WriteLine();
 static int insertElement(int[] arr, int key, int n)
 {
-    if (n > arr.Length - 1)
+    if (n > arr.Length )
         return n;
 
     arr[n] = key;
     return n + 1;
 
 }
+
+
+*/
