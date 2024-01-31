@@ -1,14 +1,13 @@
 ﻿<Properties StartupConfiguration="{B045C015-FDF4-4C5C-B2DB-E06AC36B022F}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="DSA_Arrays/Program.cs">
     <Files>
-      <File FileName="DSA_Arrays/Program.cs" Line="27" Column="47" />
+      <File FileName="DSA_Arrays/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DSA_Arrays" expanded="True">
-            <Node name="DSA_Arrays">
+            <Node name="DSA_Arrays" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -16,12 +15,13 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DSA__Arrays PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/akshith/Projects/DSA_Arrays/DSA_Arrays/Program.cs" relfile="DSA_Arrays/Program.cs" line="33" column="1" />
+      <Breakpoint file="/Users/akshith/Projects/DSA_Arrays/DSA_Arrays/Program.cs" relfile="DSA_Arrays/Program.cs" line="166" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.DSA__Arrays PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

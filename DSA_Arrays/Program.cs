@@ -1,4 +1,47 @@
-﻿//Deleting element in sorted array using binary search
+﻿
+
+//SELECTION SORT:
+int[] arr = { 64,25,12,22,11 };
+
+int n = arr.Length;
+int key = 30;
+
+Console.Write("Array before deletion:\n");
+for (int i = 0; i < n; i++)
+    Console.Write(arr[i] + " ");
+
+// Function call
+selectionSort(arr, n);
+
+Console.Write("\n\nArray after deletion:\n");
+for (int i = 0; i < n; i++)
+{
+    Console.Write(arr[i] + " ");
+    
+}
+Console.WriteLine("");
+
+static void selectionSort(int[] arr, int n)
+{
+    for(int i=0; i<n;i++)
+    {
+        int min_idx = i;
+        for(int j=i+1; j< n; j++)
+        {
+            if (arr[j] < arr[min_idx])
+            {
+                min_idx = j;
+            }
+        }
+        int temp = arr[min_idx];
+        arr[min_idx] = arr[i];
+        arr[i] = temp;
+
+    }
+}
+
+
+//Deleting element in sorted array using binary search
 
 /*int i;
 int[] arr = { 10, 20, 30, 40, 50 };
